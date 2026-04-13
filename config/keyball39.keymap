@@ -9,6 +9,7 @@
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &lt {
@@ -102,7 +103,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_0 {
+        alphas {
             bindings = <
 &trans   &trans     &trans     &trans     &trans                     &trans  &trans     &trans     &trans     &trans
 &trans   &kp LC(L)  &kp LA(G)  &kp LG(D)  &trans                     &trans  &kp LG(H)  &kp LA(U)  &kp LC(O)  &trans
@@ -111,7 +112,7 @@
             >;
         };
 
-        layer_1 {
+        alphas2 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans            &trans  &trans
 &trans  &kp V   &kp W   &kp M   &trans                          &trans  &kp F   &mt LC(C) COMMA   &kp Z   &trans
@@ -124,7 +125,7 @@
             bindings = <
 &trans   &trans      &trans      &trans         &trans                  &trans         &trans          &trans    &trans     &trans
 &trans   &kp ESCAPE  &kp C_PREV  &kp C_NEXT     &trans                  &trans         &kp LC(K_BACK)  &kp UP    &kp DOWN   &trans
-&kp TAB  &kp DEL     &trans      &kp RIGHT_ALT  &trans                  &trans         &kp BACKSPACE   &kp LEFT  &kp RIGHT  &kp ENTER
+&kp TAB  &kp DEL     &mo 6       &kp RIGHT_ALT  &trans                  &trans         &kp BACKSPACE   &kp LEFT  &kp RIGHT  &kp ENTER
 &trans   &trans      &trans      &trans         &trans  &trans  &trans  &kp LG(LS(S))                                       &trans
             >;
         };
@@ -153,6 +154,15 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                  &trans  &kp N7     &kp N8     &kp N9    &trans
 &kp N0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans                  &trans  &kp MINUS  &kp EQUAL  &kp PLUS  &kp DOT
 &trans  &trans        &trans        &trans        &trans  &trans  &trans  &trans                                  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans      &trans  &trans      &trans                          &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans      &trans                          &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_PRV  &trans  &bt BT_NXT  &trans                          &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans      &bt BT_CLR_ALL  &trans  &trans  &trans                          &trans
             >;
         };
     };
