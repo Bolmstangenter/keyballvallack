@@ -702,12 +702,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M140,91 l-37,0" class="combo"/>
-<path d="M140,91 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
-<text x="140" y="91" class="combo tap">F13</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 688)" class="layer-2">
@@ -919,12 +913,6 @@ rect.held, rect.combo.held {
 <tspan x="168" dy="-0.6em">PLAY</tspan><tspan x="168" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-1">
-<path d="M140,91 l-37,0" class="combo"/>
-<path d="M140,91 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
-<text x="140" y="91" class="combo tap">F13</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1031)" class="layer-3">
@@ -1125,12 +1113,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<path d="M140,91 l-37,0" class="combo"/>
-<path d="M140,91 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
-<text x="140" y="91" class="combo tap">F13</text>
 </g>
 </g>
 </g>
@@ -1338,12 +1320,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<path d="M140,91 l-37,0" class="combo"/>
-<path d="M140,91 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
-<text x="140" y="91" class="combo tap">F13</text>
 </g>
 </g>
 </g>
@@ -1575,12 +1551,6 @@ rect.held, rect.combo.held {
 <text x="140" y="91" class="combo tap">9</text>
 <text x="140" y="80" class="combo shifted">(</text>
 </g>
-<g class="combo combopos-3">
-<path d="M140,91 l-37,0" class="combo"/>
-<path d="M140,91 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
-<text x="140" y="91" class="combo tap">F13</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 2063)" class="layer-6">
@@ -1782,12 +1752,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<path d="M140,91 l-37,0" class="combo"/>
-<path d="M140,91 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
-<text x="140" y="91" class="combo tap">F13</text>
 </g>
 </g>
 </g>
