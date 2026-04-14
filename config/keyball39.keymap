@@ -105,10 +105,10 @@
 
         alphas {
             bindings = <
-&trans   &trans     &trans     &trans     &trans                     &trans  &trans     &trans     &trans     &trans
-&trans   &kp LC(L)  &kp LA(G)  &kp LG(D)  &trans                     &trans  &kp LG(H)  &kp LA(U)  &kp LC(O)  &trans
-&lt 5 I  &lt 4 S    &lt 3 R    &lt 2 T    &trans                     &trans  &lt 2 N    &lt 3 E    &lt 4 A    &lt 5 C
-&trans   &trans     &trans     &trans     &kp SPACE  &trans  &trans  &mo 1                                    &trans
+&trans   &trans       &trans          &trans          &trans                     &trans  &trans      &trans          &trans       &trans
+&trans   &mt LCTRL L  &mt LEFT_ALT G  &mt LEFT_GUI D  &trans                     &trans  &mt LGUI H  &mt LEFT_ALT U  &mt LCTRL O  &trans
+&lt 5 I  &lt 4 S      &lt 3 R         &lt 2 T         &trans                     &trans  &lt 2 N     &lt 3 E         &lt 4 A      &lt 5 C
+&trans   &trans       &trans          &trans          &kp SPACE  &trans  &trans  &mo 1                                            &trans
             >;
         };
 
