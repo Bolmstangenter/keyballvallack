@@ -12,14 +12,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+L
-  - Alt+G
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: G, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+H
-  - Alt+U
-  - Ctl+O
+  - {t: H, h: LGUI}
+  - {t: U, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: I, h: '5'}
   - {t: S, h: '4'}
