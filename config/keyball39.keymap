@@ -124,10 +124,10 @@
 
         layer_2 {
             bindings = <
-&trans   &trans      &trans      &trans         &trans                  &trans         &trans          &trans    &trans     &trans
-&trans   &kp ESCAPE  &kp C_PREV  &kp C_NEXT     &trans                  &trans         &kp LC(K_BACK)  &kp UP    &kp DOWN   &trans
-&kp TAB  &kp DEL     &mo 6       &kp RIGHT_ALT  &trans                  &trans         &kp BACKSPACE   &kp LEFT  &kp RIGHT  &kp ENTER
-&trans   &trans      &trans      &trans         &trans  &trans  &trans  &kp LG(LS(S))                                       &trans
+&trans   &trans      &trans      &trans         &trans                  &trans         &trans             &trans    &trans     &trans
+&trans   &kp ESCAPE  &kp C_PREV  &kp C_NEXT     &trans                  &trans         &kp LC(BACKSPACE)  &kp UP    &kp DOWN   &trans
+&kp TAB  &kp DEL     &mo 6       &kp RIGHT_ALT  &trans                  &trans         &kp BACKSPACE      &kp LEFT  &kp RIGHT  &kp ENTER
+&trans   &trans      &trans      &trans         &trans  &trans  &trans  &kp LG(LS(S))                                          &trans
             >;
         };
 
