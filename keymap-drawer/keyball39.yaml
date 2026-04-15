@@ -97,7 +97,7 @@ layers:
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+BACK
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
