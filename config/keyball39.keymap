@@ -112,6 +112,16 @@
             key-positions = <17 18>;
             layers = <4>;
         };
+
+        cop {
+            bindings = <&kp LC(C)>;
+            key-positions = <11 12>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <21 22>;
+        };
     };
 
     keymap {
@@ -128,10 +138,10 @@
 
         alphas2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans            &trans  &trans
-&trans  &kp V   &kp W   &kp M   &trans                          &trans  &kp F   &mt LC(C) COMMA   &kp Z   &trans
-&kp Q   &kp J   &kp P   &kp K   &trans                          &trans  &kp B   &mt LC(V) PERIOD  &kp X   &kp Y
-&trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &trans                                    &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans      &trans  &trans
+&trans  &kp V   &kp W   &kp M   &trans                          &trans  &kp F   &kp COMMA   &kp Z   &trans
+&kp Q   &kp J   &kp P   &kp K   &trans                          &trans  &kp B   &kp PERIOD  &kp X   &kp Y
+&trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &trans                              &trans
             >;
         };
 
